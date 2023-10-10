@@ -20,7 +20,7 @@ Let's see that page in a browser:<br>
 It seems like a ping online tool which often vulnerable to command-injections. Let's try to execute any command by adding a semicolon:<br>
 ![](10.png)<br>
 Now we can do many things such as reading local files with config:<br>
-![]11.png)<br>
+![](11.png)<br>
 Next step is gaining reverse shell with python command and running netcat on our attacker machine:<br>
 ![](12.png)<br>
 That's it, we are in system under www-data account. Now we can try to read **user's flag**:<br>
@@ -40,8 +40,8 @@ Artisan file contains an PHP-code that we can edit:<br>
 For further step we need to prepare. Create a php reverse shell file on attacker machine:<br>
 ![](20.png)<br>
 and upload it to cronos machine as artisan file:<br>
-![](21.png)
-Use netcat to catch incoming connection and wait about one minute:
-![](22.png)
-Now we're under root account. Let's get **root's flag**:
+![](21.png)<br>
+Use netcat to catch incoming connection and wait about one minute:<br>
+![](22.png)<br>
+Now we're under root account. Let's get **root's flag**:<br>
 ![](23.png)
