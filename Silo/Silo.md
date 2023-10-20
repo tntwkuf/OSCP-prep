@@ -1,4 +1,4 @@
-SIlo is medium difficulty OSCP-like machine based on Windows.
+Silo is medium difficulty OSCP-like machine based on Windows.
 Let's start research with a nmap scan to detect open ports, running services and soft version:<br>
 ![](1.png)<br>
 There we can see a lot of open ports, most interesting is 80, 139, 445 and 1521. Let's check a web server:<br>
